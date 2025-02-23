@@ -14,21 +14,18 @@ class MyApp extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         home: Scaffold(
             appBar: AppBar(
-              centerTitle: true,
+          
               title: Text(
-                'Flutter Demo',
-                style: TextStyle(
-                  color: Colors.white,
-                  fontFamily: 'IndieFlower',
-                  fontSize: 24.0,
+                'Advance UI - lab -06',
+               
                 ),
               ),
-              backgroundColor: Colors.grey[800],
+              backgroundColor: Colors.blue[800],
             ),
-            body: Padding(
+            body: Column(
               padding: const EdgeInsets.all(20.0),
               child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
+
                 children: [
                   Text('4.0',
                       style: TextStyle(fontSize: 40.0, color: Colors.grey)),
